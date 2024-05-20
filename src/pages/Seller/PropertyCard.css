@@ -1,0 +1,24 @@
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 400px;
+}
+
+.property-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.property-card p {
+  margin: 8px 0;
+}
+
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
