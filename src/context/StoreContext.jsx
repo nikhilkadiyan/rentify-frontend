@@ -3,7 +3,7 @@ import axios from "axios";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-  const url = "http://localhost:4000";
+  const url = "https://rentify-backend-6am6.onrender.com";
 
   const [token, setToken] = useState("");
   const [propertyList, setPropertyList] = useState([]);
